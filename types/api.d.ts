@@ -1,7 +1,5 @@
-export interface HelloResponse {
+export interface ApiResponse<T> {
     success: boolean
-    data:{
-      message: string
-    }
+    data:T
   }
   

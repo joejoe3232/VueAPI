@@ -10,9 +10,11 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "express": "^4.21.1",
     "nuxt": "^3.14.0",
     "vue": "latest",
-    "vue-router": "latest"
+    "vue-router": "latest",
+    "ws": "^8.18.0"
   },
   "devDependencies": {
     "@nuxt/typescript-build": "^3.0.2",
